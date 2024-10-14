@@ -1,0 +1,17 @@
+import React, { Component } from 'react'
+
+class ClassProps extends Component {
+    render(){
+        console.log(this.props)
+        return (
+            <div className='bg-red-300 px-2 py-2'>
+                <h1>Props in ClassComponent</h1> 
+                <h2>{this.props.name}</h2>
+                <h2>{this.props.user.name}</h2>  
+                <h2>{this.props.user.age}</h2>     
+            </div>
+        )
+    }
+}
+
+export default ClassProps

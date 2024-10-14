@@ -1,0 +1,23 @@
+<- Function Based Component ->
+
+import React from 'react'
+
+const Function = () => {
+    let msg = "This is function-Based component"
+  return (
+    <div>
+       <h1>{msg}</h1> 
+
+    </div>
+  )
+}
+export const Notice = () => {
+    let note = "Tomorow Class Time is 9:00 AM";
+    return(
+        <>
+            <h1>{note}</h1>
+        </>
+    )
+}
+
+export default Function

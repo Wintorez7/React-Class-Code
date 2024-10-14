@@ -1,0 +1,24 @@
+// Conditional Rendering Code :-
+
+1. <- using If-Else Statment ->
+
+const Second = () => {
+    let age = 18
+    if (age >= 18){
+        return(
+            <>
+                <h1>This is Second Component</h1>
+                <h2>age:{age}</h2>
+                <h3>user is Eligible for Vote</h3>
+            </>
+        )
+    }
+    else{
+        return(
+            <>
+                <h3>User is Not Eligible</h3>
+            </>
+        )
+    }
+}
+export default Second

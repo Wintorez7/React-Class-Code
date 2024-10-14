@@ -1,0 +1,22 @@
+<- Using Ternary Opertaor in React ->
+
+const Second = () => {
+    let age = 21
+    let number = 0
+    return(
+        <>
+            <h1>This is Second Component</h1>
+            <h2>age : {age}</h2>
+            {
+                age >= 18 ? <p>User is Eligible to vote</p>:
+                <p>user is Not eligible</p>
+            }
+            {
+                number > 0 ?  number % 2 === 0 ? <p>Even Number</p> : <p>Odd Number</p> :
+                number < 0  ? <p>Number is Negative</p>:<p>Number is Positive</p>
+            }
+        </>
+    )
+    
+}
+export default Second

@@ -1,0 +1,19 @@
+<- Class Based Component ->
+
+import React from 'react'
+
+class ClassComponent extends React.Component{
+    constructor(){
+        super()
+        this.number = 10
+    }
+    render(){
+        return(
+            <>
+                <p>This is Class Commponent</p>
+                <h3>number = {this.number}</h3>
+            </>
+        )
+    }
+}
+export default ClassComponent

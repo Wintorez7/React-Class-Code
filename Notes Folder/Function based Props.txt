@@ -1,0 +1,20 @@
+import React from 'react'
+
+const FunctionProps = (props) => {
+    console.log(props)
+    const {name,address,user} = props
+  return (
+    <div className=''>
+        <h1 className='bg-green-300 px-2 py-2'>Props is Functional Component</h1>
+        {/* <h2 className='bg-green-400 px-2 py-2'>Name:{props.name}</h2>
+        <h2 className='bg-green-200 px-2 py-2'>address:{props.address}</h2>
+        <h2 className='bg-green-500 px-2 py-2'>address:{props.user.name}</h2> */}
+        <h2 className='bg-green-400 px-2 py-2'>Name:{name}</h2>
+        <h2 className='bg-green-400 px-2 py-2'>address:{address}</h2>
+        <h2 className='bg-green-400 px-2 py-2'>{user.name}</h2> 
+        <h2 className='bg-green-400 px-2 py-2'>{user.age}</h2> 
+    </div>
+  )
+}
+
+export default FunctionProps
