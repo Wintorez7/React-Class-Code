@@ -1,4 +1,4 @@
-const countryData = [
+export const countryData = [
     {
         name:"India",
         cities:["Mumbai","Delhi","Bengluru","Bihar"]
