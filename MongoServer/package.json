@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.1",
+    "nodemon": "^3.1.9"
+  },
+  "name": "mongoserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
