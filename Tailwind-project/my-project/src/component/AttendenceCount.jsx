@@ -29,7 +29,7 @@ const AttendenceCount = () => {
         <h1 className="text-2xl font-semibold text-gray-700">Attendance Count</h1>
       </div> */}
       {/* Chart */}
-      <div style={{ width: '100%', height: 385 ,backgroundColor:'white', borderRadius:"10px"}}>
+      <div style={{ width: '450px', height: 385 ,backgroundColor:'white', borderRadius:"10px"}}>
         <ResponsiveContainer minWidth="400px" minHeight="230px">
           <BarChart
             data={data}

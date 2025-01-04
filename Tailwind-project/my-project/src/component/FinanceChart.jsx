@@ -49,8 +49,8 @@ const data = [
 
 const FinanceChart = () => {
   return (
-    <div className='bg-white rounded-lg ml-[-7rem]'>
-         <ResponsiveContainer minHeight="390px" minWidth="790px" >
+    <div className='bg-white rounded-lg ml-[-1rem]'>
+         <ResponsiveContainer minHeight="390px" minWidth="790px">
         <LineChart
           width={500}
           height={270}

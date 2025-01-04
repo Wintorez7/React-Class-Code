@@ -25,7 +25,7 @@ function CountRadialCharts() {
   return (
     <div className="flex flex-col items-center bg-white rounded-lg shadow-md p-4">
       {/* Chart Container */}
-      <div style={{ width: 350, height: 250 }}>
+      <div style={{ width: 400, height: 250 }}>
         <ResponsiveContainer >
           <RadialBarChart
             cx="50%"
