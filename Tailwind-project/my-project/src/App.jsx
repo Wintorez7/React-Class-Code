@@ -7,7 +7,7 @@ import Footer from './component/Footer'
 function App() {
   return (
     <>   
-      <div className='flex min-h-screen w-screen'>
+      <div className='flex min-h-screen w-full'>
         {/* Left Sidebar */}
         <div className='w-[20%] sm:w-[16%] md:w-[12%] lg:w-[10%] bg-slate-50'>
           <Menu />
