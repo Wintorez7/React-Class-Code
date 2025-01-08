@@ -7,7 +7,7 @@ import TeacherList from '../component/lists/TeacherList'
 
 const Teacher = () => {
   return (
-    <div>
+    <div className='h-screen'>
       <TeacherList/>
     </div>
   )

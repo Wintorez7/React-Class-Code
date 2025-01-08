@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import "react-big-calendar/lib/sass/styles"; */
+
+.react-calendar {
+  width: 100% !important;
+}

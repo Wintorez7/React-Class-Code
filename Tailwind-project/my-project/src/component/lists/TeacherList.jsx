@@ -2,11 +2,11 @@ import React from 'react'
 
 const TeacherList = () => {
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto ">
   <table className="table">
     {/* head */}
     <thead>
-      <tr>  
+      <tr className='text-black font-light'>  
         <th>Info</th>
         <th>TeacherID</th>
         <th>Subject</th>
@@ -16,7 +16,7 @@ const TeacherList = () => {
         <th>Actions</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody className='text-black'>
       {/* row 1 */}
       <tr>
        
@@ -131,7 +131,7 @@ const TeacherList = () => {
       </tr>
     </tbody>
     {/* foot */}
-    <tfoot>
+    {/* <tfoot>
       <tr>
         <th></th>
         <th>Name</th>
@@ -139,7 +139,7 @@ const TeacherList = () => {
         <th>Favorite Color</th>
         <th></th>
       </tr>
-    </tfoot>
+    </tfoot> */}
   </table>
 </div>
   )
